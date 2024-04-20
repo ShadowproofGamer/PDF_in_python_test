@@ -29,7 +29,7 @@ class PDFViewerApp:
         doc.close()
 
 def main():
-    pdf_path = "data/Spr03HD-id266886-Cebula-2024.pdf"
+    pdf_path = "data/pdf.pdf"
 
     root = tk.Tk()
     app = PDFViewerApp(root, pdf_path)

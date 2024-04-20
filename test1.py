@@ -24,7 +24,7 @@ def otworz_strone(pdf_path, numer_strony):
 
 if __name__ == "__main__":
     # Przykładowe użycie
-    sciezka_do_pdf = "data/Spr03HD-id266886-Cebula-2024.pdf"
+    sciezka_do_pdf = "data/pdf.pdf"
     numer_docelowej_strony = 2
 
     otworz_strone(sciezka_do_pdf, numer_docelowej_strony)
